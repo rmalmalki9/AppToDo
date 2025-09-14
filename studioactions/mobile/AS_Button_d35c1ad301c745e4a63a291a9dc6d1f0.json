@@ -1,0 +1,26 @@
+{
+    "AS_Button_d35c1ad301c745e4a63a291a9dc6d1f0": {
+        "id": "AS_Button_d35c1ad301c745e4a63a291a9dc6d1f0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "TempTaskRow",
+            "type": "templates",
+            "platform": "",
+            "KUID": "f3eed8157edc49c798e62061918661c6"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_d76ca5e5543e48949d04edd7d95e1e29",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": " try {\n   var form = kony.application.getCurrentForm();\n   // نحاول نلقى الكنترولر بأي طريقة\n   var ctrl = form && (form.controller || form.__controller);\n   if (!ctrl) {\n     kony.ui.Alert({ message: \"No controller or no form found!\" + form.id + \"\\ncontroller\" + ctrl , \n                    alertType: constants.ALERT_TYPE_INFO }, {});\n     return;\n   }\n   if (typeof ctrl.deleteTask === \"function\") {\n     ctrl.deleteTask(context);      \n     return;\n   }\n   kony.ui.Alert({ message: \"deleteTask NOT FOUND IN THE CONTROLLER !\", \n                  alertType: constants.ALERT_TYPE_INFO }, {});\n } catch (e) {\n   kony.ui.Alert({ message: \"ERR: \" + e, alertType: constants.ALERT_TYPE_INFO }, {});\n }",
+            "parentId": null
+        }]
+    }
+}

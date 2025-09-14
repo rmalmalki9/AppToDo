@@ -1,0 +1,60 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "44dp"
+    },
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "number",
+        "value": "24"
+    },
+    "_skin_": "s95dce35ee4c4def90de861bd033014b",
+    "_text_": "+  Add New Task",
+    "_width_": {
+        "type": "string",
+        "value": "237dp"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s30d8c3d534f485d91f2a777b8f6b9ee",
+    "id": "btnAdd",
+    "ide_onClick": "AS_Button_d9c63342a4ca462ca15caabeb8900792",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "ff7b8e9a98ae476485e0cde7d4fa39a6",
+    "name": "kony.ui.Button",
+    "parent": "mainflix",
+    "pf": "frmHome",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 2
+}

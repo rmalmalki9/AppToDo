@@ -1,0 +1,28 @@
+{
+    "AS_Button_ed509bbeb18c426fa7e3d41d63fe27e2": {
+        "id": "AS_Button_ed509bbeb18c426fa7e3d41d63fe27e2",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmAdd",
+            "type": "forms",
+            "platform": "",
+            "KUID": "d0c507a8f3d94822bc4477745d006aec"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__b512e1fa3b6b493abb1a2a75af0df295",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onCancelClick",
+            "display": "onCancelClick",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

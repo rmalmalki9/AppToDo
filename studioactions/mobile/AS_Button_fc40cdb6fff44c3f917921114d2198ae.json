@@ -1,0 +1,26 @@
+{
+    "AS_Button_fc40cdb6fff44c3f917921114d2198ae": {
+        "id": "AS_Button_fc40cdb6fff44c3f917921114d2198ae",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "TempTaskRow",
+            "type": "templates",
+            "platform": "",
+            "KUID": "f3eed8157edc49c798e62061918661c6"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_cb4a907fa61241469296d15c0b40e2ca",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "    try {\n        var form = kony.application.getCurrentForm();\n        if (form && form.controller) {\n        var funcs = [];\n        for (var k in form.controller) {\n          if (typeof form.controller[k] === \"function\") {\n            \n            funcs.push(k);\n          }\n       }\n        kony.ui.Alert({\n         message: \"Functions in controller: \" + funcs.join(\", \"),\n         alertType: constants.ALERT_TYPE_INFO\n          }, {});\n         } else {\n         kony.ui.Alert({\n         message: \"No controller or no form found!\" + form.id + \":\\n\" + form.controller ,\n         alertType: constants.ALERT_TYPE_INFO\n         }, {});\n       }\n    } catch (e) {\n        kony.ui.Alert({\n            message: \"ERR while listing functions: \" + e,\n            alertType: constants.ALERT_TYPE_INFO\n        }, {});\n    }",
+            "parentId": null
+        }]
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "AS_Button_ef1b894b80fd429e8e55f2459757e4ed": {
+        "id": "AS_Button_ef1b894b80fd429e8e55f2459757e4ed",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "TempTaskRow",
+            "type": "templates",
+            "platform": "",
+            "KUID": "f3eed8157edc49c798e62061918661c6"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_fc92fb165117405885677111eaf22ffb",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "    try {\n        var f = kony.application.getCurrentForm();\n      \n        kony.ui.Alert({\n            message: \"the form is = \" + (f && f.id) +\n          \"/n controller is =\" + (f && f._konyControllerName)+\n          \"/n has deletedTask ? =\" + (f && f.controller && typeof f.controller.deletedTask),\n            alertType: constants.ALERT_TYPE_INFO\n        }, {});\n      \n        if (f && f.controller && typeof f.controller.deletedTask === \"function\") {\n            f.controller.deletedTask(context);\n            alert(\" the context is \" + context);\n            return;\n        }\n      \n        kony.ui.Alert({\n            message: \"frmHome controller.deletedTask NOT Found\",\n            alertType: constants.ALERT_TYPE_INFO\n        }, {});\n      \n    } catch (e) {\n        kony.ui.Alert({\n            message: \"ERR\" + e,\n            alertType: constants.ALERT_TYPE_INFO\n        }, {});\n      \n    }",
+            "parentId": null
+        }]
+    }
+}

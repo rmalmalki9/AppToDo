@@ -1,0 +1,23 @@
+{
+    "AS_Button_d9c63342a4ca462ca15caabeb8900792": {
+        "id": "AS_Button_d9c63342a4ca462ca15caabeb8900792",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__ide_onClick_d8a573484bf042a9a5eecc3c9e3ef5ee",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmAdd",
+            "formKUID": "d0c507a8f3d94822bc4477745d006aec",
+            "projectName": "AppToDo",
+            "mappings": {},
+            "mappingsOrder": [],
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }]
+    }
+}

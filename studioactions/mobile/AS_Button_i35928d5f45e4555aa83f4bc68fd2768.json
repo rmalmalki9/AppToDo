@@ -1,0 +1,26 @@
+{
+    "AS_Button_i35928d5f45e4555aa83f4bc68fd2768": {
+        "id": "AS_Button_i35928d5f45e4555aa83f4bc68fd2768",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "TempTaskRow",
+            "type": "templates",
+            "platform": "",
+            "KUID": "f3eed8157edc49c798e62061918661c6"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_c5c7bff395f146ba8ae00944c2884ffa",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "try {\n        var f = kony.application.getCurrentForm();\n        var ctrl = kony.mvc.registry.getController(f.id, true);\n        \n        var keys = Object.keys(ctrl);\n          kony.ui.Alert({\n            message: \"Controller funcs  in : = \" + f.id + \":\\n \"+\n            keys.join(\"\\n \") ,\n            alertType: constants.ALERT_TYPE_INFO\n        }, {});\n  \n        \n      \n     \n      \n    } catch (e) {\n        kony.ui.Alert({\n            message: \"ERR\" + e,\n            alertType: constants.ALERT_TYPE_INFO\n        }, {});\n      \n    }",
+            "parentId": null
+        }]
+    }
+}

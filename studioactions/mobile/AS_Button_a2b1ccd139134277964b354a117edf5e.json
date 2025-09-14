@@ -1,0 +1,26 @@
+{
+    "AS_Button_a2b1ccd139134277964b354a117edf5e": {
+        "id": "AS_Button_a2b1ccd139134277964b354a117edf5e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "TempTaskRow",
+            "type": "templates",
+            "platform": "",
+            "KUID": "f3eed8157edc49c798e62061918661c6"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_fce5cf85125c47fdb1c1aed1d4cfecde",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": " try {\n   var form = kony.application.getCurrentForm();\n   var ctrl = form && (form.controller || form.__controller);\n   if (!ctrl) {\n     kony.ui.Alert({ message: \"No controller or no form found!\", alertType: constants.ALERT_TYPE_INFO }, {});\n     return;\n   }\n   if (typeof ctrl.CompletedTask === \"function\") {\n     ctrl.CompletedTask(context);\n     return;\n   }\n   kony.ui.Alert({ message: \"CompletedTask NOT FOUND IN THE CONTROLLER \", alertType: constants.ALERT_TYPE_INFO }, {});\n } catch (e) {\n   kony.ui.Alert({ message: \"ERR: \" + e, alertType: constants.ALERT_TYPE_INFO }, {});\n }",
+            "parentId": null
+        }]
+    }
+}

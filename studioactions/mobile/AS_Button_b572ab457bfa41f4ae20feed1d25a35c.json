@@ -1,0 +1,26 @@
+{
+    "AS_Button_b572ab457bfa41f4ae20feed1d25a35c": {
+        "id": "AS_Button_b572ab457bfa41f4ae20feed1d25a35c",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "TempTaskRow",
+            "type": "templates",
+            "platform": "",
+            "KUID": "f3eed8157edc49c798e62061918661c6"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ddc7a0035efd4e75b9a18ed383d86dd1",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "try {\n \n   var frmHomeCtrl = require(\"frmHomeController\");\n   \n   var idx = -1;\n   if (context && typeof context.rowIndex === \"number\") {\n     idx = context.rowIndex;\n   } else if (context && context.widgetInfo && context.widgetInfo.selectedRowIndex) {\n   \n     idx = context.widgetInfo.selectedRowIndex[1];\n   }\n  \n   if (frmHomeCtrl && typeof frmHomeCtrl.deleteTask === \"function\") {\n     frmHomeCtrl.deleteTask({ rowIndex: idx });\n     return;\n   }\n   kony.ui.Alert(\n     { message: \"frmHomeController.deleteTask\", alertType: constants.ALERT_TYPE_INFO },\n     {}\n   );\n } catch (e) {\n   kony.ui.Alert(\n     { message: \"ERROR in AS_Button_Delete: \" + e, alertType: constants.ALERT_TYPE_INFO },\n     {}\n   );\n }\n",
+            "parentId": null
+        }]
+    }
+}

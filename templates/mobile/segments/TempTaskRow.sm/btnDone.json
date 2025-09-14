@@ -1,0 +1,55 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "30dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "147dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s116f89895c04d5b8c2fc6dcab55ee98",
+    "_text_": "Complete",
+    "_top_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "83dp"
+    },
+    "canUpdateUI": true,
+    "containerId": true,
+    "containerweight": 100,
+    "contentalignment": 2,
+    "disabledSkins": {
+        "focusSkin": "sd5e5b5ec7db4987a80dcc3b526ddde5"
+    },
+    "displaytext": true,
+    "id": "btnDone",
+    "ide_onClick": "AS_Button_a2b1ccd139134277964b354a117edf5e",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "b41153f396a944ab9e5dbd18eb121600",
+    "name": "kony.ui.Button",
+    "parent": "flexActions",
+    "pf": "TempTaskRow",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

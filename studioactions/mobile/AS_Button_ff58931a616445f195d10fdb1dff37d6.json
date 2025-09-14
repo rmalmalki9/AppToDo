@@ -1,0 +1,26 @@
+{
+    "AS_Button_ff58931a616445f195d10fdb1dff37d6": {
+        "id": "AS_Button_ff58931a616445f195d10fdb1dff37d6",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "TempTaskRow",
+            "type": "templates",
+            "platform": "",
+            "KUID": "f3eed8157edc49c798e62061918661c6"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_e468d279d0bc4b57adaa7f95f3787bbb",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var f = kony.application.getCurrentForm();\nvar ctx = arguments && arguments[1];\nif (f && f.controller && f.controller.CompletedTask)\n  f.controller.CompletedTask(null, ctx);",
+            "parentId": null
+        }]
+    }
+}

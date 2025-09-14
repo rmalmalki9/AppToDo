@@ -1,0 +1,26 @@
+{
+    "AS_Button_bce261779ac7418fa90b1cdf1de67877": {
+        "id": "AS_Button_bce261779ac7418fa90b1cdf1de67877",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "TempTaskRow",
+            "type": "templates",
+            "platform": "",
+            "KUID": "f3eed8157edc49c798e62061918661c6"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_e86620099bcb4ce8be9cc7768cbf5e19",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "try {\n        var f = kony.application.getCurrentForm();\n  \n        if (f && f.controller){\n          var keys = Object.keys(f.controller);\n          kony.ui.Alert({\n            message: \"Controller funcs : = \" + keys.join(\", \") ,\n            alertType: constants.ALERT_TYPE_INFO\n        }, {});\n        }else {\n          kony.ui.Alert({\n            message: \"NO  controller FOUND \",\n            alertType: constants.ALERT_TYPE_INFO\n        }, {});\n        }\n      \n     \n      \n    } catch (e) {\n        kony.ui.Alert({\n            message: \"ERR\" + e,\n            alertType: constants.ALERT_TYPE_INFO\n        }, {});\n      \n    }",
+            "parentId": null
+        }]
+    }
+}

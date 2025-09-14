@@ -1,0 +1,805 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "192dp"
+    },
+    "_data_": [
+        {
+            "CalendarEmpty": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "CheckCircleLight": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "btnDelete": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Delete"
+            },
+            "btnDone": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblCompleted": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "completed"
+            },
+            "lblDate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "DateDue"
+            },
+            "lblIndex": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblTask": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Task "
+            }
+        },
+        {
+            "CalendarEmpty": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "CheckCircleLight": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "btnDelete": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Delete"
+            },
+            "btnDone": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblCompleted": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "completed"
+            },
+            "lblDate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "DateDue"
+            },
+            "lblIndex": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblTask": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Task "
+            }
+        },
+        {
+            "CalendarEmpty": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "CheckCircleLight": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "btnDelete": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Delete"
+            },
+            "btnDone": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblCompleted": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "completed"
+            },
+            "lblDate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "DateDue"
+            },
+            "lblIndex": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblTask": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Task "
+            }
+        },
+        {
+            "CalendarEmpty": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "CheckCircleLight": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "btnDelete": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Delete"
+            },
+            "btnDone": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblCompleted": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "completed"
+            },
+            "lblDate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "DateDue"
+            },
+            "lblIndex": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblTask": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Task "
+            }
+        },
+        {
+            "CalendarEmpty": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "CheckCircleLight": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "btnDelete": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Delete"
+            },
+            "btnDone": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblCompleted": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "completed"
+            },
+            "lblDate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "DateDue"
+            },
+            "lblIndex": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblTask": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Task "
+            }
+        },
+        {
+            "CalendarEmpty": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "CheckCircleLight": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "btnDelete": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Delete"
+            },
+            "btnDone": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblCompleted": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "completed"
+            },
+            "lblDate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "DateDue"
+            },
+            "lblIndex": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblTask": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Task "
+            }
+        },
+        {
+            "CalendarEmpty": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "CheckCircleLight": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "btnDelete": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Delete"
+            },
+            "btnDone": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblCompleted": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "completed"
+            },
+            "lblDate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "DateDue"
+            },
+            "lblIndex": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblTask": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Task "
+            }
+        },
+        {
+            "CalendarEmpty": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "CheckCircleLight": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "btnDelete": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Delete"
+            },
+            "btnDone": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblCompleted": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "completed"
+            },
+            "lblDate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "DateDue"
+            },
+            "lblIndex": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblTask": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Task "
+            }
+        },
+        {
+            "CalendarEmpty": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "CheckCircleLight": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "btnDelete": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Delete"
+            },
+            "btnDone": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblCompleted": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "completed"
+            },
+            "lblDate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "DateDue"
+            },
+            "lblIndex": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblTask": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Task "
+            }
+        },
+        {
+            "CalendarEmpty": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "CheckCircleLight": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "btnDelete": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Delete"
+            },
+            "btnDone": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblCompleted": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "completed"
+            },
+            "lblDate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "DateDue"
+            },
+            "lblIndex": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblTask": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Task "
+            }
+        },
+        {
+            "CalendarEmpty": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "CheckCircleLight": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "btnDelete": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Delete"
+            },
+            "btnDone": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblCompleted": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "completed"
+            },
+            "lblDate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "DateDue"
+            },
+            "lblIndex": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblTask": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Task "
+            }
+        },
+        {
+            "CalendarEmpty": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "CheckCircleLight": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "btnDelete": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Delete"
+            },
+            "btnDone": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblCompleted": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "completed"
+            },
+            "lblDate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "DateDue"
+            },
+            "lblIndex": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblTask": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Task "
+            }
+        },
+        {
+            "CalendarEmpty": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "CheckCircleLight": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "btnDelete": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Delete"
+            },
+            "btnDone": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblCompleted": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "completed"
+            },
+            "lblDate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "DateDue"
+            },
+            "lblIndex": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblTask": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Task "
+            }
+        },
+        {
+            "CalendarEmpty": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "CheckCircleLight": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "btnDelete": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Delete"
+            },
+            "btnDone": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblCompleted": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "completed"
+            },
+            "lblDate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "DateDue"
+            },
+            "lblIndex": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblTask": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Task "
+            }
+        },
+        {
+            "CalendarEmpty": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "CheckCircleLight": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "btnDelete": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Delete"
+            },
+            "btnDone": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblCompleted": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "completed"
+            },
+            "lblDate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "DateDue"
+            },
+            "lblIndex": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblTask": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Task "
+            }
+        },
+        {
+            "CalendarEmpty": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "CheckCircleLight": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "btnDelete": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Delete"
+            },
+            "btnDone": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblCompleted": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "completed"
+            },
+            "lblDate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "DateDue"
+            },
+            "lblIndex": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblTask": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Task "
+            }
+        },
+        {
+            "CalendarEmpty": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "CheckCircleLight": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "btnDelete": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Delete"
+            },
+            "btnDone": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblCompleted": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "completed"
+            },
+            "lblDate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "DateDue"
+            },
+            "lblIndex": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblTask": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Task "
+            }
+        },
+        {
+            "CalendarEmpty": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "CheckCircleLight": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "btnDelete": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Delete"
+            },
+            "btnDone": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblCompleted": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "completed"
+            },
+            "lblDate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "DateDue"
+            },
+            "lblIndex": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblTask": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Task "
+            }
+        },
+        {
+            "CalendarEmpty": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "CheckCircleLight": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "btnDelete": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Delete"
+            },
+            "btnDone": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblCompleted": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "completed"
+            },
+            "lblDate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "DateDue"
+            },
+            "lblIndex": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblTask": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Task "
+            }
+        },
+        {
+            "CalendarEmpty": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "CheckCircleLight": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "btnDelete": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Delete"
+            },
+            "btnDone": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblCompleted": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "completed"
+            },
+            "lblDate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "DateDue"
+            },
+            "lblIndex": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblTask": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Task "
+            }
+        }
+    ],
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "177dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90.51%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50.09%"
+    },
+    "containerweight": 100,
+    "counter": "019",
+    "disabledSkins": {
+        "alternateRowSkin": "s1e514c6d3e44e37b95cc6c5fadda20a"
+    },
+    "focusedindex": null,
+    "focuseditem": null,
+    "generatedtemplate": "e378d4b0f3994ba192452ee39f975f42",
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segTasks",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "gbebf0478ce04313bcf98157563b673d",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "paddinginpixel": false,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom",
+        "vdistance": 1
+    },
+    "parent": "mainflix",
+    "pf": "frmHome",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "f3eed8157edc49c798e62061918661c6",
+    "rowcounter": 19,
+    "rowfocusskin": "s16d91154ab4406da6a4c34c4f3eba6d",
+    "rowskin": "s23d3e9a89c24ecb8773b1a163853b7a",
+    "rowtemplate": "TaskRow",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionHeaderTemplateId": null,
+    "sectionheaderskin": "s7344a0c1f5044aea2ae2cebee6f68af",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "selectionbehaviorconfig": null,
+    "separatorcolor": "f2f6fa27",
+    "separatorrequired": true,
+    "separatorthickness": 10,
+    "showscrollbars": true,
+    "swipeContext": {
+        "currentPage": 0,
+        "imageWidth": 1165,
+        "widthRatio": 0
+    },
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "CalendarEmpty": "CalendarEmpty",
+        "CheckCircleLight": "CheckCircleLight",
+        "TaskRow": "TaskRow",
+        "btnDelete": "btnDelete",
+        "btnDone": "btnDone",
+        "flexActions": "flexActions",
+        "lblCompleted": "lblCompleted",
+        "lblDate": "lblDate",
+        "lblIndex": "lblIndex",
+        "lblTask": "lblTask"
+    },
+    "zindex": 1
+}

@@ -1,0 +1,26 @@
+{
+    "AS_Button_fe32e8dd974a45c184fc2f1d3b010525": {
+        "id": "AS_Button_fe32e8dd974a45c184fc2f1d3b010525",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "TempTaskRow",
+            "type": "templates",
+            "platform": "",
+            "KUID": "f3eed8157edc49c798e62061918661c6"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_h6c3bcb078a74e63bdaef8fcf229ae74",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "function AS_Button_Delete(eventobject, context){\n  try{\n    var form = kony.application.getCurrentForm();\n    if (form && form.controller && typeof form.controller.deletedTask === \"function\"){\n      form.controller.deletedTask(context);\n      return;\n    }\n    kony.ui.Alert({message: \"frmHome controller.deletedTask NOT Found\", alertType: constants.ALERT_TYPE_INFO}, {});\n    \n  }catch(e){\n    kony.ui.Alert({message: \"ERR\" + e , alertType: constants.ALERT_TYPE_INFO}, {});\n    \n  }\n}",
+            "parentId": null
+        }]
+    }
+}

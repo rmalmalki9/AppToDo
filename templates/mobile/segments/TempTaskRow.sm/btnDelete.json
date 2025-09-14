@@ -1,0 +1,55 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "22dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "43dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s0e0f8c8d1b54022a3b1e424fb96c1c9",
+    "_text_": "Delete",
+    "_top_": {
+        "type": "string",
+        "value": "12dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "70dp"
+    },
+    "canUpdateUI": true,
+    "containerId": true,
+    "containerweight": 100,
+    "contentalignment": 2,
+    "disabledSkins": {
+        "focusSkin": "sd5e5b5ec7db4987a80dcc3b526ddde5"
+    },
+    "displaytext": true,
+    "id": "btnDelete",
+    "ide_onClick": "AS_Button_d35c1ad301c745e4a63a291a9dc6d1f0",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "bc3541e2d2e54696b96bb55faf2534dc",
+    "name": "kony.ui.Button",
+    "parent": "flexActions",
+    "pf": "TempTaskRow",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

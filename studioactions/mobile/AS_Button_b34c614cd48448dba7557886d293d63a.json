@@ -1,0 +1,18 @@
+{
+    "AS_Button_b34c614cd48448dba7557886d293d63a": {
+        "id": "AS_Button_b34c614cd48448dba7557886d293d63a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmAdd",
+            "type": "forms",
+            "platform": "",
+            "KUID": "d0c507a8f3d94822bc4477745d006aec"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "models": {
+        "mobile": {
+            "class": "GraphLinksModel",
+            "linkDataArray": [
+                {
+                    "actionId": null,
+                    "from": "h22273953c87471ea908af34f600532b",
+                    "points": [
+                        -45,
+                        189.9544921875,
+                        -35,
+                        189.9544921875,
+                        68.49999999999997,
+                        189.9544921875,
+                        68.49999999999997,
+                        394.95449218749997,
+                        171.99999999999994,
+                        394.95449218749997,
+                        181.99999999999994,
+                        394.95449218749997
+                    ],
+                    "softLink": true,
+                    "to": "d0c507a8f3d94822bc4477745d006aec"
+                }
+            ],
+            "nodeDataArray": [
+                {
+                    "formKUID": "d0c507a8f3d94822bc4477745d006aec",
+                    "formName": "frmAdd",
+                    "isStartupForm": false,
+                    "key": "d0c507a8f3d94822bc4477745d006aec",
+                    "loc": "181.99999999999994 241.75449218749998",
+                    "thumbnailURL": "/assets/AppToDo/forms/mobile/frmAdd.sm/.thumbs/default.jpeg"
+                },
+                {
+                    "formKUID": "h22273953c87471ea908af34f600532b",
+                    "formName": "frmHome",
+                    "isStartupForm": true,
+                    "key": "h22273953c87471ea908af34f600532b",
+                    "loc": "-205 36.7544921875",
+                    "thumbnailURL": "/assets/AppToDo/forms/mobile/frmHome.sm/.thumbs/default.jpeg"
+                }
+            ]
+        }
+    }
+}

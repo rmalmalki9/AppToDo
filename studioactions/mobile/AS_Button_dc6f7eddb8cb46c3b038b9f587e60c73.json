@@ -1,0 +1,31 @@
+{
+    "AS_Button_dc6f7eddb8cb46c3b038b9f587e60c73": {
+        "id": "AS_Button_dc6f7eddb8cb46c3b038b9f587e60c73",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "TempTaskRow",
+            "type": "templates",
+            "platform": "",
+            "KUID": "f3eed8157edc49c798e62061918661c6"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__g14f6b92781e4f978d592eb47048e715",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onTaskCompleted",
+            "display": "onTaskCompleted",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

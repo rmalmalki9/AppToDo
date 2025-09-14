@@ -1,0 +1,26 @@
+{
+    "AS_Button_f11813bd9fc54b6f8b844efc001c8311": {
+        "id": "AS_Button_f11813bd9fc54b6f8b844efc001c8311",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "TempTaskRow",
+            "type": "templates",
+            "platform": "",
+            "KUID": "f3eed8157edc49c798e62061918661c6"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_e95a87d02e1542c2b0636e07e6924735",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var f = kony.application.getCurrentForm();\nvar ctx = arguments && arguments[1];\nif (f && f.controller && f.controller.deletedTask)\n  f.controller.deletedTask(null, ctx);",
+            "parentId": null
+        }]
+    }
+}

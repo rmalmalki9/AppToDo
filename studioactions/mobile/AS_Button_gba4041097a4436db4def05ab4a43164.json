@@ -1,0 +1,31 @@
+{
+    "AS_Button_gba4041097a4436db4def05ab4a43164": {
+        "id": "AS_Button_gba4041097a4436db4def05ab4a43164",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "TempTaskRow",
+            "type": "templates",
+            "platform": "",
+            "KUID": "f3eed8157edc49c798e62061918661c6"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__j73571d71be647c7871c56a4c94ff360",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onTaskDelete",
+            "display": "onTaskDelete",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

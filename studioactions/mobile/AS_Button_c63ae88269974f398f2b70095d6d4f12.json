@@ -1,0 +1,26 @@
+{
+    "AS_Button_c63ae88269974f398f2b70095d6d4f12": {
+        "id": "AS_Button_c63ae88269974f398f2b70095d6d4f12",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "TempTaskRow",
+            "type": "templates",
+            "platform": "",
+            "KUID": "f3eed8157edc49c798e62061918661c6"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_aa3ab2dc397b45caa44d86a9f65d5007",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "function AS_Button_c63ae88269974f398f2b70095d6d4f12(eventobject, context) {\n    kony.ui.Alert({message: \"btn Delete Tapped \", alertType: constants.ALERT_TYPE_INFO}, {});\n\n    \n}",
+            "parentId": null
+        }]
+    }
+}
