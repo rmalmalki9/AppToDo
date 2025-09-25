@@ -16,9 +16,9 @@ define({
     try {
       KNYMobileFabric.init(
         {
-          appKey:     "<Primary Key>",
-          appSecret:  "<Secret Key>",
-          serviceUrl: "URL"
+          appKey:     "<949f19d9a6a80082af94ee5c52532f3b>",
+          appSecret:  "<2f342f45ed35d6c87b0556aa6aacd517>",
+          serviceUrl: "https://rmbdev.albtests.com/authService/100000002/appconfig"
         },
         function () { 
           
